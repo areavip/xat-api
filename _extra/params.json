@@ -1,0 +1,13 @@
+{
+  "bitly": "url",
+  "chatinfo": "chat",
+  "chatprice": "chat",
+  "dx": "amount",
+  "id2user": "id",
+  "inverttext": "text",
+  "powerinfo": "power",
+  "promocosts": "time",
+  "shortprice": "name",
+  "user2id": "user",
+  "x2d": "amount"
+}
