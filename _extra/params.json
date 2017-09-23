@@ -3,11 +3,14 @@
   "chatinfo": "chat",
   "chatprice": "chat",
   "dx": "amount",
+  "findpowers": "code",
   "id2user": "id",
   "inverttext": "text",
+  "listsmilies": "power",
   "powerinfo": "power",
   "promocosts": "time",
   "shortprice": "name",
   "user2id": "user",
+  "whatis": "smiley",
   "x2d": "amount"
 }
