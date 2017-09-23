@@ -25,6 +25,7 @@ require_once('_extra/core.php');
 		echo '<strong>Epic</strong>: ' . ($getJson['epic'] == false ? '&#10006;' : '&#10004;') . '<br>';
 		echo '<strong>Game</strong>: ' . ($getJson['game'] == false ? '&#10006;' : '&#10004;') . '<br>';
 		echo '<strong>Group</strong>: ' . ($getJson['group'] == false ? '&#10006;' : '&#10004;') . '<br>';
+		echo '<strong>Section / SubID</strong>: ' . $getJson['section'] . ' / ' . $getJson['subid'];
 	}
 	?>
 </body>

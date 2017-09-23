@@ -35,7 +35,8 @@ require_once('_extra/core.php');
 					echo '<strong>Epic</strong>: ' . ($getResult['epic'] == false ? '&#10006;' : '&#10004;') . '<br>';
 					echo '<strong>Game</strong>: ' . ($getResult['game'] == false ? '&#10006;' : '&#10004;') . '<br>';
 					echo '<strong>Group</strong>: ' . ($getResult['group'] == false ? '&#10006;' : '&#10004;') . '<br>';
-					echo '<strong>New power</strong>: ' . ($getResult['newpower'] == false ? '&#10006;' : '&#10004;');
+					echo '<strong>New power</strong>: ' . ($getResult['newpower'] == false ? '&#10006;' : '&#10004;') . '<br>';
+					echo '<strong>Section / SubID</strong>: ' . $getResult['section'] . ' / ' . $getResult['subid'];
 				} else {
 					echo 'Error: ' . $getResult['message'];
 				}
